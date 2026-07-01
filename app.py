@@ -5,8 +5,9 @@ import os
 # Sivun asetukset ja leveä asettelu koontitaulukoille
 st.set_page_config(page_title="Fronius-varaosahaku Pro", page_icon="🔥", layout="wide")
 
-st.title("Fronius Kulutusosat (Nimi- tai koodihaku)")
-st.write("Voit hakea osia lennosta joko kirjoittamalla tuotenumeron, osan nimen, laitteen mallin, kuvasto päivittyy ajoittain.")
+st.title("Fronius MIG Kulutusosat (Nimi- tai koodihaku)")
+st.write("Voit hakea osia lennosta joko kirjoittamalla tuotenumeron, osan nimen, laitteen mallin, kuvasto päivittyy ajoittain. " \
+"Tällä hetkellä kuvastossa on vain MIG-varusteet")
 
 # Varmistetaan, että Excel-tiedosto löytyy
 excel_tiedosto = "varaosat.xlsx"
